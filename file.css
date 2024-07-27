@@ -1,0 +1,79 @@
+/*************************Footer CSS*******************************************/
+footer {
+  margin-top: 5rem;
+  background-image: url('images/hero-bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  padding: 8% 5%;
+  position: relative;
+  padding-bottom: 0;
+}
+
+footer p {
+  font-size: 1.9rem;
+}
+
+footer .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+  color: #666;
+}
+
+footer .content .box {
+  margin: 1rem;
+}
+
+footer .content .box h3 {
+  font-size: 2.5rem;
+  color: var(--main-color);
+  text-transform: capitalize;
+}
+
+footer .content .box a {
+  display: block;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #666;
+}
+
+footer .content .box a:hover {
+  color: var(--main-color);
+}
+
+footer .content .box i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #fff;
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+
+footer .content .box i:hover {
+  background-color: #e7246388;
+  border: 2px solid var(--main-color);
+}
+
+footer .bottom {
+  text-align: center;
+  border-top: 1px solid #666;
+  padding: 4rem 0;
+}
+
+footer .bottom span {
+  font-size: 2.1rem;
+  color: var(--main-color);
+  text-transform: capitalize;
+}
+
+footer img {
+  width: 100px;
+}
